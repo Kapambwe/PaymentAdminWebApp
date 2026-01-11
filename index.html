@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Portal - Real-Time Payment System</title>
+    <base href="/" id="dynamic-base">
+    <script>
+        // Dynamically set base path for GitHub Pages deployment
+        (function () {
+            var base = document.getElementById('dynamic-base');
+            var path = window.location.pathname.includes('/PaymentAdminWebApp')
+                ? '/PaymentAdminWebApp/'
+                : '/';
+            base.setAttribute('href', path);
+        })();
+    </script>
+    <link href="_content/Radzen.Blazor/css/material-base.css" rel="stylesheet" />
+    <link href="_content/Radzen.Blazor/css/standard-base.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="RealTimePay.AdminPortal.styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+            <h3>Loading Admin Portal...</h3>
+            <div style="margin-top: 20px;">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+    <script>
+        // If redirected from 404.html, restore path
+        (function () {
+            const params = new URLSearchParams(window.location.search);
+            const path = params.get('path');
+            if (path) {
+                window.history.replaceState(null, '', '/PaymentAdminWebApp' + decodeURIComponent(path));
+            }
+        })();
+    </script>
+</body>
+
+</html>
