@@ -1,0 +1,112 @@
+{
+  "bankAccounts": [
+    {
+      "bankName": "First Bank",
+      "accountNumber": "****9696",
+      "routingNumber": "722845",
+      "accountHolderName": "Merchant 1 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FIR",
+      "currency": "UGX",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "GTBank",
+      "accountNumber": "****2708",
+      "routingNumber": "519862",
+      "accountHolderName": "Merchant 2 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-03-12T15:21:20.3098193+02:00",
+      "bankCode": "GTB",
+      "currency": "UGX",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Zenith Bank",
+      "accountNumber": "****4114",
+      "routingNumber": "302000",
+      "accountHolderName": "Merchant 3 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-02-12T15:21:20.3098242+02:00",
+      "bankCode": "ZEN",
+      "currency": "UGX",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Access Bank",
+      "accountNumber": "****7940",
+      "routingNumber": "402381",
+      "accountHolderName": "Merchant 4 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-01-12T15:21:20.3098262+02:00",
+      "bankCode": "ACC",
+      "currency": "UGX",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "UBA",
+      "accountNumber": "****9323",
+      "routingNumber": "511464",
+      "accountHolderName": "Merchant 5 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "UBA",
+      "currency": "UGX",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "Sterling Bank",
+      "accountNumber": "****9228",
+      "routingNumber": "530561",
+      "accountHolderName": "Merchant 6 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-11-12T15:21:20.3098343+02:00",
+      "bankCode": "STE",
+      "currency": "UGX",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Fidelity Bank",
+      "accountNumber": "****4690",
+      "routingNumber": "123711",
+      "accountHolderName": "Merchant 7 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-10-12T15:21:20.3098367+02:00",
+      "bankCode": "FID",
+      "currency": "UGX",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Stanbic IBTC",
+      "accountNumber": "****8139",
+      "routingNumber": "962857",
+      "accountHolderName": "Merchant 8 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-09-12T15:21:20.3098385+02:00",
+      "bankCode": "STA",
+      "currency": "UGX",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Ecobank",
+      "accountNumber": "****7268",
+      "routingNumber": "333623",
+      "accountHolderName": "Merchant 9 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "ECO",
+      "currency": "UGX",
+      "accountStatus": "PendingVerification"
+    }
+  ]
+}

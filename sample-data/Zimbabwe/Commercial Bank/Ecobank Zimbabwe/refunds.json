@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-ZW-Eco-001",
+      "transactionId": "TXN-ZW-Eco-050",
+      "originalAmount": 200,
+      "refundAmount": 200,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:20.6487604+02:00",
+      "processedAt": "2026-04-12T15:21:20.6487612+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-ZW-Eco-002",
+      "transactionId": "TXN-ZW-Eco-051",
+      "originalAmount": 300,
+      "refundAmount": 300,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:20.6487649+02:00",
+      "processedAt": "2026-04-12T11:21:20.648765+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-ZW-Eco-003",
+      "transactionId": "TXN-ZW-Eco-052",
+      "originalAmount": 400,
+      "refundAmount": 400,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:20.6487665+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-ZW-Eco-004",
+      "transactionId": "TXN-ZW-Eco-053",
+      "originalAmount": 500,
+      "refundAmount": 500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:20.6487679+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-ZW-Eco-005",
+      "transactionId": "TXN-ZW-Eco-054",
+      "originalAmount": 600,
+      "refundAmount": 600,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:20.6487691+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-ZW-Eco-006",
+      "transactionId": "TXN-ZW-Eco-055",
+      "originalAmount": 700,
+      "refundAmount": 700,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:20.6487704+02:00",
+      "processedAt": "2026-04-11T19:21:20.6487705+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-ZW-Eco-007",
+      "transactionId": "TXN-ZW-Eco-056",
+      "originalAmount": 800,
+      "refundAmount": 800,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:20.648772+02:00",
+      "processedAt": "2026-04-11T15:21:20.6487721+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-ZW-Eco-008",
+      "transactionId": "TXN-ZW-Eco-057",
+      "originalAmount": 900,
+      "refundAmount": 900,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:20.6487734+02:00",
+      "processedAt": "2026-04-11T11:21:20.6487735+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-ZW-Eco-009",
+      "transactionId": "TXN-ZW-Eco-058",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:20.6487748+02:00",
+      "processedAt": "2026-04-11T07:21:20.6487749+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

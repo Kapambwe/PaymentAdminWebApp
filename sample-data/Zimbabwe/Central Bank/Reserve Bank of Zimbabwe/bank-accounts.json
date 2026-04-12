@@ -1,0 +1,112 @@
+{
+  "bankAccounts": [
+    {
+      "bankName": "First Bank",
+      "accountNumber": "****1529",
+      "routingNumber": "531457",
+      "accountHolderName": "Business 1 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FIR",
+      "currency": "ZWL",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "GTBank",
+      "accountNumber": "****4030",
+      "routingNumber": "523292",
+      "accountHolderName": "Business 2 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-03-12T15:21:20.5682973+02:00",
+      "bankCode": "GTB",
+      "currency": "ZWL",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Zenith Bank",
+      "accountNumber": "****8331",
+      "routingNumber": "850449",
+      "accountHolderName": "Business 3 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-02-12T15:21:20.5683012+02:00",
+      "bankCode": "ZEN",
+      "currency": "ZWL",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Access Bank",
+      "accountNumber": "****3357",
+      "routingNumber": "287484",
+      "accountHolderName": "Business 4 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "ACC",
+      "currency": "ZWL",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "UBA",
+      "accountNumber": "****3339",
+      "routingNumber": "663340",
+      "accountHolderName": "Business 5 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-12-12T15:21:20.5683057+02:00",
+      "bankCode": "UBA",
+      "currency": "ZWL",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Sterling Bank",
+      "accountNumber": "****1663",
+      "routingNumber": "253423",
+      "accountHolderName": "Business 6 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-11-12T15:21:20.5683085+02:00",
+      "bankCode": "STE",
+      "currency": "ZWL",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Fidelity Bank",
+      "accountNumber": "****4608",
+      "routingNumber": "887891",
+      "accountHolderName": "Business 7 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FID",
+      "currency": "ZWL",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "Stanbic IBTC",
+      "accountNumber": "****4972",
+      "routingNumber": "425615",
+      "accountHolderName": "Business 8 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-09-12T15:21:20.5683129+02:00",
+      "bankCode": "STA",
+      "currency": "ZWL",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Ecobank",
+      "accountNumber": "****4105",
+      "routingNumber": "833562",
+      "accountHolderName": "Business 9 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-08-12T15:21:20.5683148+02:00",
+      "bankCode": "ECO",
+      "currency": "ZWL",
+      "accountStatus": "Active"
+    }
+  ]
+}

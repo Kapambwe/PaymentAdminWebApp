@@ -1,0 +1,112 @@
+{
+  "bankAccounts": [
+    {
+      "bankName": "First Bank",
+      "accountNumber": "****2058",
+      "routingNumber": "983272",
+      "accountHolderName": "Merchant 1 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FIR",
+      "currency": "TZS",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "GTBank",
+      "accountNumber": "****8997",
+      "routingNumber": "171183",
+      "accountHolderName": "Merchant 2 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-03-12T15:21:20.0536608+02:00",
+      "bankCode": "GTB",
+      "currency": "TZS",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Zenith Bank",
+      "accountNumber": "****1653",
+      "routingNumber": "683004",
+      "accountHolderName": "Merchant 3 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-02-12T15:21:20.0536649+02:00",
+      "bankCode": "ZEN",
+      "currency": "TZS",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Access Bank",
+      "accountNumber": "****7744",
+      "routingNumber": "987689",
+      "accountHolderName": "Merchant 4 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-01-12T15:21:20.0536718+02:00",
+      "bankCode": "ACC",
+      "currency": "TZS",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "UBA",
+      "accountNumber": "****4602",
+      "routingNumber": "238444",
+      "accountHolderName": "Merchant 5 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "UBA",
+      "currency": "TZS",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "Sterling Bank",
+      "accountNumber": "****9663",
+      "routingNumber": "667926",
+      "accountHolderName": "Merchant 6 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-11-12T15:21:20.0536761+02:00",
+      "bankCode": "STE",
+      "currency": "TZS",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Fidelity Bank",
+      "accountNumber": "****6803",
+      "routingNumber": "821169",
+      "accountHolderName": "Merchant 7 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-10-12T15:21:20.0536782+02:00",
+      "bankCode": "FID",
+      "currency": "TZS",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Stanbic IBTC",
+      "accountNumber": "****8762",
+      "routingNumber": "736897",
+      "accountHolderName": "Merchant 8 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-09-12T15:21:20.0536805+02:00",
+      "bankCode": "STA",
+      "currency": "TZS",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Ecobank",
+      "accountNumber": "****2383",
+      "routingNumber": "865092",
+      "accountHolderName": "Merchant 9 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "ECO",
+      "currency": "TZS",
+      "accountStatus": "PendingVerification"
+    }
+  ]
+}

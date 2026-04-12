@@ -1,0 +1,112 @@
+{
+  "bankAccounts": [
+    {
+      "bankName": "First Bank",
+      "accountNumber": "****9265",
+      "routingNumber": "266277",
+      "accountHolderName": "Business 1 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FIR",
+      "currency": "NAD",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "GTBank",
+      "accountNumber": "****3456",
+      "routingNumber": "978895",
+      "accountHolderName": "Business 2 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-03-12T15:21:21.0779011+02:00",
+      "bankCode": "GTB",
+      "currency": "NAD",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Zenith Bank",
+      "accountNumber": "****3679",
+      "routingNumber": "687372",
+      "accountHolderName": "Business 3 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-02-12T15:21:21.0779049+02:00",
+      "bankCode": "ZEN",
+      "currency": "NAD",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Access Bank",
+      "accountNumber": "****5341",
+      "routingNumber": "194478",
+      "accountHolderName": "Business 4 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "ACC",
+      "currency": "NAD",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "UBA",
+      "accountNumber": "****5140",
+      "routingNumber": "364077",
+      "accountHolderName": "Business 5 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-12-12T15:21:21.0779093+02:00",
+      "bankCode": "UBA",
+      "currency": "NAD",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Sterling Bank",
+      "accountNumber": "****1645",
+      "routingNumber": "506145",
+      "accountHolderName": "Business 6 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-11-12T15:21:21.0779113+02:00",
+      "bankCode": "STE",
+      "currency": "NAD",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Fidelity Bank",
+      "accountNumber": "****9258",
+      "routingNumber": "289047",
+      "accountHolderName": "Business 7 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FID",
+      "currency": "NAD",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "Stanbic IBTC",
+      "accountNumber": "****6475",
+      "routingNumber": "541553",
+      "accountHolderName": "Business 8 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-09-12T15:21:21.0779152+02:00",
+      "bankCode": "STA",
+      "currency": "NAD",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Ecobank",
+      "accountNumber": "****7588",
+      "routingNumber": "857573",
+      "accountHolderName": "Business 9 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-08-12T15:21:21.077917+02:00",
+      "bankCode": "ECO",
+      "currency": "NAD",
+      "accountStatus": "Active"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-NA-Cap-001",
+      "transactionId": "TXN-NA-Cap-050",
+      "originalAmount": 200,
+      "refundAmount": 200,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:21.1972596+02:00",
+      "processedAt": "2026-04-12T15:21:21.197261+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-NA-Cap-002",
+      "transactionId": "TXN-NA-Cap-051",
+      "originalAmount": 300,
+      "refundAmount": 300,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:21.1972647+02:00",
+      "processedAt": "2026-04-12T11:21:21.1972648+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-NA-Cap-003",
+      "transactionId": "TXN-NA-Cap-052",
+      "originalAmount": 400,
+      "refundAmount": 400,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:21.1972664+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-NA-Cap-004",
+      "transactionId": "TXN-NA-Cap-053",
+      "originalAmount": 500,
+      "refundAmount": 500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:21.1972683+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-NA-Cap-005",
+      "transactionId": "TXN-NA-Cap-054",
+      "originalAmount": 600,
+      "refundAmount": 600,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:21.1972699+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-NA-Cap-006",
+      "transactionId": "TXN-NA-Cap-055",
+      "originalAmount": 700,
+      "refundAmount": 700,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:21.1972712+02:00",
+      "processedAt": "2026-04-11T19:21:21.1972713+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-NA-Cap-007",
+      "transactionId": "TXN-NA-Cap-056",
+      "originalAmount": 800,
+      "refundAmount": 800,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:21.1972728+02:00",
+      "processedAt": "2026-04-11T15:21:21.197273+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-NA-Cap-008",
+      "transactionId": "TXN-NA-Cap-057",
+      "originalAmount": 900,
+      "refundAmount": 900,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:21.1972745+02:00",
+      "processedAt": "2026-04-11T11:21:21.1972746+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-NA-Cap-009",
+      "transactionId": "TXN-NA-Cap-058",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:21.197276+02:00",
+      "processedAt": "2026-04-11T07:21:21.1972761+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

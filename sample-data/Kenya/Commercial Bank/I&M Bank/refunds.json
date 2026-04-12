@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-KE-I\u0026M-001",
+      "transactionId": "TXN-KE-I\u0026M-050",
+      "originalAmount": 2000,
+      "refundAmount": 2000,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:19.4963699+02:00",
+      "processedAt": "2026-04-12T15:21:19.4963751+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-KE-I\u0026M-002",
+      "transactionId": "TXN-KE-I\u0026M-051",
+      "originalAmount": 3000,
+      "refundAmount": 3000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:19.4963796+02:00",
+      "processedAt": "2026-04-12T11:21:19.4963798+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-KE-I\u0026M-003",
+      "transactionId": "TXN-KE-I\u0026M-052",
+      "originalAmount": 4000,
+      "refundAmount": 4000,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:19.4963816+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-KE-I\u0026M-004",
+      "transactionId": "TXN-KE-I\u0026M-053",
+      "originalAmount": 5000,
+      "refundAmount": 5000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:19.4963836+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-KE-I\u0026M-005",
+      "transactionId": "TXN-KE-I\u0026M-054",
+      "originalAmount": 6000,
+      "refundAmount": 6000,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:19.4963857+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-KE-I\u0026M-006",
+      "transactionId": "TXN-KE-I\u0026M-055",
+      "originalAmount": 7000,
+      "refundAmount": 7000,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:19.4963875+02:00",
+      "processedAt": "2026-04-11T19:21:19.4963876+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-KE-I\u0026M-007",
+      "transactionId": "TXN-KE-I\u0026M-056",
+      "originalAmount": 8000,
+      "refundAmount": 8000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:19.4963896+02:00",
+      "processedAt": "2026-04-11T15:21:19.4963897+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-KE-I\u0026M-008",
+      "transactionId": "TXN-KE-I\u0026M-057",
+      "originalAmount": 9000,
+      "refundAmount": 9000,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:19.4963915+02:00",
+      "processedAt": "2026-04-11T11:21:19.4963917+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-KE-I\u0026M-009",
+      "transactionId": "TXN-KE-I\u0026M-058",
+      "originalAmount": 10000,
+      "refundAmount": 10000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:19.4963936+02:00",
+      "processedAt": "2026-04-11T07:21:19.4963938+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

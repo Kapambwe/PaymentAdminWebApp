@@ -1,0 +1,178 @@
+{
+  "systemAnalytics": {
+    "totalTransactions": 154500000,
+    "totalVolume": 1250000000000,
+    "averageTransactionSize": 81000,
+    "totalParticipants": 2450,
+    "totalCustomers": 125000000,
+    "volumeByPaymentMethod": {
+      "UPI": 550000000000,
+      "Card": 400000000000,
+      "Bank": 300000000000
+    }
+  },
+  "transactionAnalytics": {
+    "totalTransactions": 2450000,
+    "totalValue": 3062500000,
+    "sentCount": 1225000,
+    "sentValue": 1531250000,
+    "receivedCount": 1225000,
+    "receivedValue": 1531250000,
+    "successRate": 98.7,
+    "averageTransactionSize": 12500,
+    "topCounterparties": [
+      {
+        "name": "Bank 1",
+        "bic": "BK1XXZA",
+        "transactionCount": 500,
+        "totalValue": 50000000
+      },
+      {
+        "name": "Bank 2",
+        "bic": "BK2XXZA",
+        "transactionCount": 600,
+        "totalValue": 60000000
+      },
+      {
+        "name": "Bank 3",
+        "bic": "BK3XXZA",
+        "transactionCount": 700,
+        "totalValue": 70000000
+      },
+      {
+        "name": "Bank 4",
+        "bic": "BK4XXZA",
+        "transactionCount": 800,
+        "totalValue": 80000000
+      },
+      {
+        "name": "Bank 5",
+        "bic": "BK5XXZA",
+        "transactionCount": 900,
+        "totalValue": 90000000
+      },
+      {
+        "name": "Bank 6",
+        "bic": "BK6XXZA",
+        "transactionCount": 1000,
+        "totalValue": 100000000
+      },
+      {
+        "name": "Bank 7",
+        "bic": "BK7XXZA",
+        "transactionCount": 1100,
+        "totalValue": 110000000
+      },
+      {
+        "name": "Bank 8",
+        "bic": "BK8XXZA",
+        "transactionCount": 1200,
+        "totalValue": 120000000
+      },
+      {
+        "name": "Bank 9",
+        "bic": "BK9XXZA",
+        "transactionCount": 1300,
+        "totalValue": 130000000
+      }
+    ],
+    "hourlyDistribution": [
+      {
+        "hour": 0,
+        "transactionCount": 65
+      },
+      {
+        "hour": 1,
+        "transactionCount": 60
+      },
+      {
+        "hour": 2,
+        "transactionCount": 48
+      },
+      {
+        "hour": 3,
+        "transactionCount": 64
+      },
+      {
+        "hour": 4,
+        "transactionCount": 41
+      },
+      {
+        "hour": 5,
+        "transactionCount": 51
+      },
+      {
+        "hour": 6,
+        "transactionCount": 70
+      },
+      {
+        "hour": 7,
+        "transactionCount": 59
+      },
+      {
+        "hour": 8,
+        "transactionCount": 76
+      },
+      {
+        "hour": 9,
+        "transactionCount": 181
+      },
+      {
+        "hour": 10,
+        "transactionCount": 174
+      },
+      {
+        "hour": 11,
+        "transactionCount": 169
+      },
+      {
+        "hour": 12,
+        "transactionCount": 124
+      },
+      {
+        "hour": 13,
+        "transactionCount": 176
+      },
+      {
+        "hour": 14,
+        "transactionCount": 126
+      },
+      {
+        "hour": 15,
+        "transactionCount": 146
+      },
+      {
+        "hour": 16,
+        "transactionCount": 179
+      },
+      {
+        "hour": 17,
+        "transactionCount": 123
+      },
+      {
+        "hour": 18,
+        "transactionCount": 38
+      },
+      {
+        "hour": 19,
+        "transactionCount": 59
+      },
+      {
+        "hour": 20,
+        "transactionCount": 40
+      },
+      {
+        "hour": 21,
+        "transactionCount": 58
+      },
+      {
+        "hour": 22,
+        "transactionCount": 38
+      },
+      {
+        "hour": 23,
+        "transactionCount": 74
+      }
+    ]
+  }
+}

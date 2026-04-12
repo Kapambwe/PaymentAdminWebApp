@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-NA-Agr-001",
+      "transactionId": "TXN-NA-Agr-050",
+      "originalAmount": 200,
+      "refundAmount": 200,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:21.2250205+02:00",
+      "processedAt": "2026-04-12T15:21:21.2250218+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-NA-Agr-002",
+      "transactionId": "TXN-NA-Agr-051",
+      "originalAmount": 300,
+      "refundAmount": 300,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:21.2250252+02:00",
+      "processedAt": "2026-04-12T11:21:21.2250254+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-NA-Agr-003",
+      "transactionId": "TXN-NA-Agr-052",
+      "originalAmount": 400,
+      "refundAmount": 400,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:21.225027+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-NA-Agr-004",
+      "transactionId": "TXN-NA-Agr-053",
+      "originalAmount": 500,
+      "refundAmount": 500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:21.2250284+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-NA-Agr-005",
+      "transactionId": "TXN-NA-Agr-054",
+      "originalAmount": 600,
+      "refundAmount": 600,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:21.2250294+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-NA-Agr-006",
+      "transactionId": "TXN-NA-Agr-055",
+      "originalAmount": 700,
+      "refundAmount": 700,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:21.2250305+02:00",
+      "processedAt": "2026-04-11T19:21:21.2250306+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-NA-Agr-007",
+      "transactionId": "TXN-NA-Agr-056",
+      "originalAmount": 800,
+      "refundAmount": 800,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:21.2250371+02:00",
+      "processedAt": "2026-04-11T15:21:21.2250372+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-NA-Agr-008",
+      "transactionId": "TXN-NA-Agr-057",
+      "originalAmount": 900,
+      "refundAmount": 900,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:21.2250387+02:00",
+      "processedAt": "2026-04-11T11:21:21.2250388+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-NA-Agr-009",
+      "transactionId": "TXN-NA-Agr-058",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:21.22504+02:00",
+      "processedAt": "2026-04-11T07:21:21.2250401+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

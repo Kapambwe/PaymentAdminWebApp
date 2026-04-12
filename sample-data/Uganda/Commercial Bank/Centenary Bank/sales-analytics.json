@@ -1,0 +1,189 @@
+{
+  "salesDashboard": {
+    "todaysSales": 28394.50,
+    "yesterdaysSales": 24450.60,
+    "salesChangePercent": 16.1,
+    "transactionCount": 225,
+    "yesterdayTransactionCount": 190,
+    "transactionChangePercent": 18.4,
+    "averageTicketSize": 126.20,
+    "successRate": 97.8,
+    "refundRate": 1.8
+  },
+  "salesTrend": [
+    {
+      "date": "2026-04-04",
+      "amount": 17500,
+      "count": 30
+    },
+    {
+      "date": "2026-04-05",
+      "amount": 20000,
+      "count": 33
+    },
+    {
+      "date": "2026-04-06",
+      "amount": 22500,
+      "count": 36
+    },
+    {
+      "date": "2026-04-07",
+      "amount": 25000,
+      "count": 39
+    },
+    {
+      "date": "2026-04-08",
+      "amount": 27500,
+      "count": 42
+    },
+    {
+      "date": "2026-04-09",
+      "amount": 30000,
+      "count": 45
+    },
+    {
+      "date": "2026-04-10",
+      "amount": 32500,
+      "count": 48
+    },
+    {
+      "date": "2026-04-11",
+      "amount": 35000,
+      "count": 51
+    },
+    {
+      "date": "2026-04-12",
+      "amount": 37500,
+      "count": 54
+    }
+  ],
+  "paymentMethodBreakdown": [
+    {
+      "method": "Mobile Money",
+      "amount": 75000,
+      "count": 1000,
+      "percentage": 55.0
+    },
+    {
+      "method": "Card",
+      "amount": 40000,
+      "count": 300,
+      "percentage": 29.5
+    },
+    {
+      "method": "Bank Transfer",
+      "amount": 20000,
+      "count": 150,
+      "percentage": 15.5
+    }
+  ],
+  "topProducts": [
+    {
+      "productName": "Service 1",
+      "salesCount": 15,
+      "totalAmount": 3750
+    },
+    {
+      "productName": "Service 2",
+      "salesCount": 18,
+      "totalAmount": 4500
+    },
+    {
+      "productName": "Service 3",
+      "salesCount": 21,
+      "totalAmount": 5250
+    },
+    {
+      "productName": "Service 4",
+      "salesCount": 24,
+      "totalAmount": 6000
+    },
+    {
+      "productName": "Service 5",
+      "salesCount": 27,
+      "totalAmount": 6750
+    },
+    {
+      "productName": "Service 6",
+      "salesCount": 30,
+      "totalAmount": 7500
+    },
+    {
+      "productName": "Service 7",
+      "salesCount": 33,
+      "totalAmount": 8250
+    },
+    {
+      "productName": "Service 8",
+      "salesCount": 36,
+      "totalAmount": 9000
+    },
+    {
+      "productName": "Service 9",
+      "salesCount": 39,
+      "totalAmount": 9750
+    }
+  ],
+  "peakHours": [
+    {
+      "hour": 8,
+      "amount": 4000,
+      "transactionCount": 8
+    },
+    {
+      "hour": 9,
+      "amount": 4750,
+      "transactionCount": 9
+    },
+    {
+      "hour": 10,
+      "amount": 5500,
+      "transactionCount": 10
+    },
+    {
+      "hour": 11,
+      "amount": 6250,
+      "transactionCount": 11
+    },
+    {
+      "hour": 12,
+      "amount": 7000,
+      "transactionCount": 12
+    },
+    {
+      "hour": 13,
+      "amount": 7750,
+      "transactionCount": 13
+    },
+    {
+      "hour": 14,
+      "amount": 8500,
+      "transactionCount": 14
+    },
+    {
+      "hour": 15,
+      "amount": 9250,
+      "transactionCount": 15
+    },
+    {
+      "hour": 16,
+      "amount": 10000,
+      "transactionCount": 16
+    },
+    {
+      "hour": 17,
+      "amount": 10750,
+      "transactionCount": 17
+    },
+    {
+      "hour": 18,
+      "amount": 11500,
+      "transactionCount": 18
+    },
+    {
+      "hour": 19,
+      "amount": 12250,
+      "transactionCount": 19
+    }
+  ]
+}

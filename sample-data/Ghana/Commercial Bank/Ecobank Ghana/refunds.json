@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-GH-Eco-001",
+      "transactionId": "TXN-GH-Eco-050",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:19.5683284+02:00",
+      "processedAt": "2026-04-12T15:21:19.568334+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-GH-Eco-002",
+      "transactionId": "TXN-GH-Eco-051",
+      "originalAmount": 1500,
+      "refundAmount": 1500,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:19.5683392+02:00",
+      "processedAt": "2026-04-12T11:21:19.5683393+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-GH-Eco-003",
+      "transactionId": "TXN-GH-Eco-052",
+      "originalAmount": 2000,
+      "refundAmount": 2000,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:19.5683419+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-GH-Eco-004",
+      "transactionId": "TXN-GH-Eco-053",
+      "originalAmount": 2500,
+      "refundAmount": 2500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:19.5683443+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-GH-Eco-005",
+      "transactionId": "TXN-GH-Eco-054",
+      "originalAmount": 3000,
+      "refundAmount": 3000,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:19.5683468+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-GH-Eco-006",
+      "transactionId": "TXN-GH-Eco-055",
+      "originalAmount": 3500,
+      "refundAmount": 3500,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:19.5683491+02:00",
+      "processedAt": "2026-04-11T19:21:19.5683492+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-GH-Eco-007",
+      "transactionId": "TXN-GH-Eco-056",
+      "originalAmount": 4000,
+      "refundAmount": 4000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:19.5683518+02:00",
+      "processedAt": "2026-04-11T15:21:19.5683519+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-GH-Eco-008",
+      "transactionId": "TXN-GH-Eco-057",
+      "originalAmount": 4500,
+      "refundAmount": 4500,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:19.5683541+02:00",
+      "processedAt": "2026-04-11T11:21:19.5683542+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-GH-Eco-009",
+      "transactionId": "TXN-GH-Eco-058",
+      "originalAmount": 5000,
+      "refundAmount": 5000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:19.5683572+02:00",
+      "processedAt": "2026-04-11T07:21:19.5683573+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

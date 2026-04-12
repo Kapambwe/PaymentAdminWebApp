@@ -1,0 +1,112 @@
+{
+  "bankAccounts": [
+    {
+      "bankName": "First Bank",
+      "accountNumber": "****4362",
+      "routingNumber": "558470",
+      "accountHolderName": "Business 1 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FIR",
+      "currency": "BWP",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "GTBank",
+      "accountNumber": "****2127",
+      "routingNumber": "266389",
+      "accountHolderName": "Business 2 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-03-12T15:21:20.4159332+02:00",
+      "bankCode": "GTB",
+      "currency": "BWP",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Zenith Bank",
+      "accountNumber": "****3375",
+      "routingNumber": "439884",
+      "accountHolderName": "Business 3 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-02-12T15:21:20.4159361+02:00",
+      "bankCode": "ZEN",
+      "currency": "BWP",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Access Bank",
+      "accountNumber": "****7778",
+      "routingNumber": "707266",
+      "accountHolderName": "Business 4 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "ACC",
+      "currency": "BWP",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "UBA",
+      "accountNumber": "****7020",
+      "routingNumber": "620785",
+      "accountHolderName": "Business 5 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-12-12T15:21:20.4159445+02:00",
+      "bankCode": "UBA",
+      "currency": "BWP",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Sterling Bank",
+      "accountNumber": "****2200",
+      "routingNumber": "773330",
+      "accountHolderName": "Business 6 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-11-12T15:21:20.4159462+02:00",
+      "bankCode": "STE",
+      "currency": "BWP",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Fidelity Bank",
+      "accountNumber": "****7945",
+      "routingNumber": "949547",
+      "accountHolderName": "Business 7 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FID",
+      "currency": "BWP",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "Stanbic IBTC",
+      "accountNumber": "****4168",
+      "routingNumber": "218170",
+      "accountHolderName": "Business 8 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-09-12T15:21:20.4159494+02:00",
+      "bankCode": "STA",
+      "currency": "BWP",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Ecobank",
+      "accountNumber": "****7322",
+      "routingNumber": "803384",
+      "accountHolderName": "Business 9 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-08-12T15:21:20.415951+02:00",
+      "bankCode": "ECO",
+      "currency": "BWP",
+      "accountStatus": "Active"
+    }
+  ]
+}

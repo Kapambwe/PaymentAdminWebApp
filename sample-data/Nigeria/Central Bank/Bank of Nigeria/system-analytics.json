@@ -1,0 +1,70 @@
+{
+  "systemAnalytics": {
+    "totalTransactions": 15450000,
+    "totalVolume": 125000000000,
+    "averageTransactionSize": 8100,
+    "totalParticipants": 245,
+    "totalCustomers": 12500000,
+    "volumeByPaymentMethod": {
+      "UPI": 55000000000,
+      "Card": 40000000000,
+      "Bank": 30000000000
+    }
+  },
+  "transactionAnalytics": {
+    "totalTransactions": 245000,
+    "totalValue": 306250000,
+    "sentCount": 122500,
+    "sentValue": 153125000,
+    "receivedCount": 122500,
+    "receivedValue": 153125000,
+    "successRate": 98.7,
+    "averageTransactionSize": 1250,
+    "topCounterparties": [
+      { "name": "Global Bank", "bic": "GLBBUS33", "transactionCount": 1420, "totalValue": 18500000 },
+      { "name": "Metro Finance", "bic": "METRUS11", "transactionCount": 1180, "totalValue": 15250000 },
+      { "name": "Unity Credit", "bic": "UNCRGB22", "transactionCount": 980, "totalValue": 12900000 },
+      { "name": "RiverPay", "bic": "RIVRZA01", "transactionCount": 860, "totalValue": 10450000 },
+      { "name": "Sunrise Bank", "bic": "SNRKCH21", "transactionCount": 720, "totalValue": 8900000 },
+      { "name": "Prime Trust", "bic": "PRMETGH21", "transactionCount": 680, "totalValue": 7800000 },
+      { "name": "Alpha Payments", "bic": "ALPHKE22", "transactionCount": 590, "totalValue": 6500000 },
+      { "name": "Beta Transfer", "bic": "BETATZ11", "transactionCount": 520, "totalValue": 5800000 },
+      { "name": "Gamma Wallet", "bic": "GAMAUG01", "transactionCount": 450, "totalValue": 4900000 }
+    ],
+    "hourlyDistribution": [
+      { "hour": 0, "transactionCount": 45 },
+      { "hour": 1, "transactionCount": 32 },
+      { "hour": 2, "transactionCount": 28 },
+      { "hour": 3, "transactionCount": 22 },
+      { "hour": 4, "transactionCount": 18 },
+      { "hour": 5, "transactionCount": 35 },
+      { "hour": 6, "transactionCount": 68 },
+      { "hour": 7, "transactionCount": 125 },
+      { "hour": 8, "transactionCount": 180 },
+      { "hour": 9, "transactionCount": 210 },
+      { "hour": 10, "transactionCount": 195 },
+      { "hour": 11, "transactionCount": 220 },
+      { "hour": 12, "transactionCount": 215 },
+      { "hour": 13, "transactionCount": 205 },
+      { "hour": 14, "transactionCount": 198 },
+      { "hour": 15, "transactionCount": 185 },
+      { "hour": 16, "transactionCount": 175 },
+      { "hour": 17, "transactionCount": 190 },
+      { "hour": 18, "transactionCount": 160 },
+      { "hour": 19, "transactionCount": 125 },
+      { "hour": 20, "transactionCount": 95 },
+      { "hour": 21, "transactionCount": 72 },
+      { "hour": 22, "transactionCount": 58 },
+      { "hour": 23, "transactionCount": 48 }
+    ],
+    "volumeTimeSeries": [
+      { "date": "2024-11-22", "sentCount": 850, "sentValue": 1062500, "receivedCount": 920, "receivedValue": 1150000 },
+      { "date": "2024-11-23", "sentCount": 920, "sentValue": 1150000, "receivedCount": 980, "receivedValue": 1225000 },
+      { "date": "2024-11-24", "sentCount": 780, "sentValue": 975000, "receivedCount": 850, "receivedValue": 1062500 },
+      { "date": "2024-11-25", "sentCount": 1050, "sentValue": 1312500, "receivedCount": 1100, "receivedValue": 1375000 },
+      { "date": "2024-11-26", "sentCount": 1150, "sentValue": 1437500, "receivedCount": 1200, "receivedValue": 1500000 },
+      { "date": "2024-11-27", "sentCount": 980, "sentValue": 1225000, "receivedCount": 1050, "receivedValue": 1312500 },
+      { "date": "2024-11-28", "sentCount": 1220, "sentValue": 1525000, "receivedCount": 1280, "receivedValue": 1600000 }
+    ]
+  }
+}

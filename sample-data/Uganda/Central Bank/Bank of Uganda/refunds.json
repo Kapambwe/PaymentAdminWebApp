@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-UG-001",
+      "transactionId": "TXN-UG-100",
+      "originalAmount": 2500,
+      "refundAmount": 2500,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund reason 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:20.2125685+02:00",
+      "processedAt": "2026-04-12T15:21:20.2125699+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-UG-002",
+      "transactionId": "TXN-UG-101",
+      "originalAmount": 4000,
+      "refundAmount": 4000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund reason 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:20.212574+02:00",
+      "processedAt": "2026-04-12T11:21:20.2125741+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-UG-003",
+      "transactionId": "TXN-UG-102",
+      "originalAmount": 5500,
+      "refundAmount": 5500,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund reason 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:20.2125764+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-UG-004",
+      "transactionId": "TXN-UG-103",
+      "originalAmount": 7000,
+      "refundAmount": 7000,
+      "type": "Full",
+      "reason": "ProductDefective",
+      "reasonDetails": "Refund reason 4",
+      "status": "Completed",
+      "requestedAt": "2026-04-09T15:21:20.2125786+02:00",
+      "processedAt": "2026-04-12T03:21:20.2125788+02:00",
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-UG-005",
+      "transactionId": "TXN-UG-104",
+      "originalAmount": 8500,
+      "refundAmount": 8500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund reason 5",
+      "status": "Pending",
+      "requestedAt": "2026-04-08T15:21:20.2125809+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-UG-006",
+      "transactionId": "TXN-UG-105",
+      "originalAmount": 10000,
+      "refundAmount": 10000,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund reason 6",
+      "status": "Failed",
+      "requestedAt": "2026-04-07T15:21:20.212583+02:00",
+      "processedAt": null,
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-UG-007",
+      "transactionId": "TXN-UG-106",
+      "originalAmount": 11500,
+      "refundAmount": 11500,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund reason 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:20.2125851+02:00",
+      "processedAt": "2026-04-11T15:21:20.2125853+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-UG-008",
+      "transactionId": "TXN-UG-107",
+      "originalAmount": 13000,
+      "refundAmount": 13000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund reason 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:20.2125873+02:00",
+      "processedAt": "2026-04-11T11:21:20.2125874+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-UG-009",
+      "transactionId": "TXN-UG-108",
+      "originalAmount": 14500,
+      "refundAmount": 14500,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund reason 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:20.2125895+02:00",
+      "processedAt": "2026-04-11T07:21:20.2125897+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

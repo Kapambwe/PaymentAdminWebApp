@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-NG-Eco-001",
+      "transactionId": "TXN-NG-Eco-050",
+      "originalAmount": 2000,
+      "refundAmount": 2000,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:19.3916445+02:00",
+      "processedAt": "2026-04-12T15:21:19.3916479+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-NG-Eco-002",
+      "transactionId": "TXN-NG-Eco-051",
+      "originalAmount": 3000,
+      "refundAmount": 3000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:19.3916505+02:00",
+      "processedAt": "2026-04-12T11:21:19.3916506+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-NG-Eco-003",
+      "transactionId": "TXN-NG-Eco-052",
+      "originalAmount": 4000,
+      "refundAmount": 4000,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:19.3916519+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-NG-Eco-004",
+      "transactionId": "TXN-NG-Eco-053",
+      "originalAmount": 5000,
+      "refundAmount": 5000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:19.3916531+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-NG-Eco-005",
+      "transactionId": "TXN-NG-Eco-054",
+      "originalAmount": 6000,
+      "refundAmount": 6000,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:19.3916541+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-NG-Eco-006",
+      "transactionId": "TXN-NG-Eco-055",
+      "originalAmount": 7000,
+      "refundAmount": 7000,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:19.3916551+02:00",
+      "processedAt": "2026-04-11T19:21:19.3916552+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-NG-Eco-007",
+      "transactionId": "TXN-NG-Eco-056",
+      "originalAmount": 8000,
+      "refundAmount": 8000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:19.3916561+02:00",
+      "processedAt": "2026-04-11T15:21:19.3916562+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-NG-Eco-008",
+      "transactionId": "TXN-NG-Eco-057",
+      "originalAmount": 9000,
+      "refundAmount": 9000,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:19.3916571+02:00",
+      "processedAt": "2026-04-11T11:21:19.3916572+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-NG-Eco-009",
+      "transactionId": "TXN-NG-Eco-058",
+      "originalAmount": 10000,
+      "refundAmount": 10000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:19.3916581+02:00",
+      "processedAt": "2026-04-11T07:21:19.3916582+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "countries": [
+    {
+      "name": "Nigeria",
+      "centralBank": "Central Bank of Nigeria",
+      "commercialBanks": [
+        "Guaranty Trust Bank",
+        "First Bank of Nigeria",
+        "Zenith Bank",
+        "Access Bank",
+        "United Bank for Africa",
+        "Fidelity Bank",
+        "Stanbic IBTC Bank",
+        "Ecobank Nigeria"
+      ]
+    },
+    {
+      "name": "Kenya",
+      "centralBank": "Central Bank of Kenya",
+      "commercialBanks": [
+        "Kenya Commercial Bank",
+        "Equity Bank Kenya",
+        "Standard Chartered Bank Kenya",
+        "Co-operative Bank of Kenya",
+        "Absa Bank Kenya",
+        "Diamond Trust Bank Kenya",
+        "I&M Bank",
+        "National Bank of Kenya"
+      ]
+    },
+    {
+      "name": "Ghana",
+      "centralBank": "Bank of Ghana",
+      "commercialBanks": [
+        "Standard Chartered Bank Ghana",
+        "Ecobank Ghana",
+        "Access Bank Ghana",
+        "UT Bank",
+        "Fidelity Bank Ghana",
+        "Ghana Commercial Bank",
+        "ABSA Ghana",
+        "Societe Generale Ghana"
+      ]
+    },
+    {
+      "name": "South Africa",
+      "centralBank": "South African Reserve Bank",
+      "commercialBanks": [
+        "Standard Bank",
+        "First National Bank (FNB)",
+        "Absa Bank",
+        "Nedbank",
+        "Investec Bank",
+        "Capitec Bank",
+        "Discovery Bank",
+        "African Bank"
+      ]
+    },
+    {
+      "name": "Zambia",
+      "centralBank": "Bank of Zambia",
+      "commercialBanks": [
+        "Standard Chartered Bank Zambia",
+        "Stanbic Bank Zambia",
+        "First National Bank Zambia",
+        "Zambia Commercial Bank",
+        "African Banking Corporation",
+        "BancABC Zambia",
+        "Fidelity Bank Zambia",
+        "Investrust Bank"
+      ]
+    },
+    {
+      "name": "Tanzania",
+      "centralBank": "Bank of Tanzania",
+      "commercialBanks": [
+        "NMB Bank",
+        "CRDB Bank",
+        "Standard Chartered Bank Tanzania",
+        "Equity Bank Tanzania",
+        "Exim Bank Tanzania",
+        "Stanbic Bank Tanzania",
+        "ABC Bank Tanzania",
+        "Bank of Baroda Tanzania"
+      ]
+    },
+    {
+      "name": "Uganda",
+      "centralBank": "Bank of Uganda",
+      "commercialBanks": [
+        "Standard Chartered Bank Uganda",
+        "DFCU Bank",
+        "Centenary Bank",
+        "Stanbic Bank Uganda",
+        "Equity Bank Uganda",
+        "Bank of Baroda Uganda",
+        "Cairo International Bank",
+        "Opportunity Bank Uganda"
+      ]
+    },
+    {
+      "name": "Botswana",
+      "centralBank": "Bank of Botswana",
+      "commercialBanks": [
+        "Standard Chartered Bank Botswana",
+        "First National Bank Botswana",
+        "Stanbic Bank Botswana",
+        "Barclays Bank Botswana",
+        "African Banking Corporation Botswana",
+        "Bank Gaborone",
+        "First Alliance Bank",
+        "BancABC Botswana"
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "centralBank": "Reserve Bank of Zimbabwe",
+      "commercialBanks": [
+        "Standard Chartered Bank Zimbabwe",
+        "CBZ Bank",
+        "FBC Bank",
+        "Nedbank Zimbabwe",
+        "Ecobank Zimbabwe",
+        "ZB Bank",
+        "Steward Bank",
+        "Buildwise Bank"
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "centralBank": "Bank of Sierra Leone",
+      "commercialBanks": [
+        "Standard Chartered Bank Sierra Leone",
+        "EcoBank Sierra Leone",
+        "Rokel Commercial Bank",
+        "Sierra Leone Commercial Bank",
+        "Access Bank Sierra Leone",
+        "United Bank for Africa Sierra Leone",
+        "First International Bank Sierra Leone",
+        "Liberty Bank Sierra Leone"
+      ]
+    },
+    {
+      "name": "Malawi",
+      "centralBank": "Reserve Bank of Malawi",
+      "commercialBanks": [
+        "Standard Chartered Bank Malawi",
+        "First National Bank Malawi",
+        "Nedbank Malawi",
+        "Ecobank Malawi",
+        "FMB Bank",
+        "Stanbic Bank Malawi",
+        "National Bank of Malawi",
+        "Opportunity Bank Malawi"
+      ]
+    },
+    {
+      "name": "Namibia",
+      "centralBank": "Bank of Namibia",
+      "commercialBanks": [
+        "Standard Chartered Bank Namibia",
+        "First National Bank Namibia",
+        "Nedbank Namibia",
+        "Bank Windhoek",
+        "Old Mutual Namibia",
+        "Swanis",
+        "Capricorn Bank",
+        "Agribank"
+      ]
+    }
+  ]
+}

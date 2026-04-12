@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-ZW-Ste-001",
+      "transactionId": "TXN-ZW-Ste-050",
+      "originalAmount": 200,
+      "refundAmount": 200,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:20.6804335+02:00",
+      "processedAt": "2026-04-12T15:21:20.6804348+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-ZW-Ste-002",
+      "transactionId": "TXN-ZW-Ste-051",
+      "originalAmount": 300,
+      "refundAmount": 300,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:20.6804445+02:00",
+      "processedAt": "2026-04-12T11:21:20.6804447+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-ZW-Ste-003",
+      "transactionId": "TXN-ZW-Ste-052",
+      "originalAmount": 400,
+      "refundAmount": 400,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:20.6804471+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-ZW-Ste-004",
+      "transactionId": "TXN-ZW-Ste-053",
+      "originalAmount": 500,
+      "refundAmount": 500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:20.6804491+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-ZW-Ste-005",
+      "transactionId": "TXN-ZW-Ste-054",
+      "originalAmount": 600,
+      "refundAmount": 600,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:20.6804513+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-ZW-Ste-006",
+      "transactionId": "TXN-ZW-Ste-055",
+      "originalAmount": 700,
+      "refundAmount": 700,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:20.6804533+02:00",
+      "processedAt": "2026-04-11T19:21:20.6804535+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-ZW-Ste-007",
+      "transactionId": "TXN-ZW-Ste-056",
+      "originalAmount": 800,
+      "refundAmount": 800,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:20.6804555+02:00",
+      "processedAt": "2026-04-11T15:21:20.6804557+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-ZW-Ste-008",
+      "transactionId": "TXN-ZW-Ste-057",
+      "originalAmount": 900,
+      "refundAmount": 900,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:20.6804576+02:00",
+      "processedAt": "2026-04-11T11:21:20.6804578+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-ZW-Ste-009",
+      "transactionId": "TXN-ZW-Ste-058",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:20.6804595+02:00",
+      "processedAt": "2026-04-11T07:21:20.6804597+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

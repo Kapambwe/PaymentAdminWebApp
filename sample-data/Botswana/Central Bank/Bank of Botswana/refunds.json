@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-BW-001",
+      "transactionId": "TXN-BW-100",
+      "originalAmount": 500,
+      "refundAmount": 500,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund reason 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:20.407744+02:00",
+      "processedAt": "2026-04-12T15:21:20.4077456+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-BW-002",
+      "transactionId": "TXN-BW-101",
+      "originalAmount": 800,
+      "refundAmount": 800,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund reason 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:20.4077487+02:00",
+      "processedAt": "2026-04-12T11:21:20.4077488+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-BW-003",
+      "transactionId": "TXN-BW-102",
+      "originalAmount": 1100,
+      "refundAmount": 1100,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund reason 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:20.4077503+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-BW-004",
+      "transactionId": "TXN-BW-103",
+      "originalAmount": 1400,
+      "refundAmount": 1400,
+      "type": "Full",
+      "reason": "ProductDefective",
+      "reasonDetails": "Refund reason 4",
+      "status": "Completed",
+      "requestedAt": "2026-04-09T15:21:20.4077518+02:00",
+      "processedAt": "2026-04-12T03:21:20.4077519+02:00",
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-BW-005",
+      "transactionId": "TXN-BW-104",
+      "originalAmount": 1700,
+      "refundAmount": 1700,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund reason 5",
+      "status": "Pending",
+      "requestedAt": "2026-04-08T15:21:20.4077532+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-BW-006",
+      "transactionId": "TXN-BW-105",
+      "originalAmount": 2000,
+      "refundAmount": 2000,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund reason 6",
+      "status": "Failed",
+      "requestedAt": "2026-04-07T15:21:20.4077547+02:00",
+      "processedAt": null,
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-BW-007",
+      "transactionId": "TXN-BW-106",
+      "originalAmount": 2300,
+      "refundAmount": 2300,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund reason 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:20.4077559+02:00",
+      "processedAt": "2026-04-11T15:21:20.4077561+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-BW-008",
+      "transactionId": "TXN-BW-107",
+      "originalAmount": 2600,
+      "refundAmount": 2600,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund reason 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:20.4077577+02:00",
+      "processedAt": "2026-04-11T11:21:20.4077578+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-BW-009",
+      "transactionId": "TXN-BW-108",
+      "originalAmount": 2900,
+      "refundAmount": 2900,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund reason 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:20.407759+02:00",
+      "processedAt": "2026-04-11T07:21:20.4077591+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

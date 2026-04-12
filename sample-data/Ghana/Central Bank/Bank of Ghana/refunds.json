@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-GH-001",
+      "transactionId": "TXN-GH-100",
+      "originalAmount": 2500,
+      "refundAmount": 2500,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund reason 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:19.5345809+02:00",
+      "processedAt": "2026-04-12T15:21:19.534585+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-GH-002",
+      "transactionId": "TXN-GH-101",
+      "originalAmount": 4000,
+      "refundAmount": 4000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund reason 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:19.5345889+02:00",
+      "processedAt": "2026-04-12T11:21:19.5345891+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-GH-003",
+      "transactionId": "TXN-GH-102",
+      "originalAmount": 5500,
+      "refundAmount": 5500,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund reason 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:19.5345908+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-GH-004",
+      "transactionId": "TXN-GH-103",
+      "originalAmount": 7000,
+      "refundAmount": 7000,
+      "type": "Full",
+      "reason": "ProductDefective",
+      "reasonDetails": "Refund reason 4",
+      "status": "Completed",
+      "requestedAt": "2026-04-09T15:21:19.5345923+02:00",
+      "processedAt": "2026-04-12T03:21:19.5345924+02:00",
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-GH-005",
+      "transactionId": "TXN-GH-104",
+      "originalAmount": 8500,
+      "refundAmount": 8500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund reason 5",
+      "status": "Pending",
+      "requestedAt": "2026-04-08T15:21:19.5345939+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-GH-006",
+      "transactionId": "TXN-GH-105",
+      "originalAmount": 10000,
+      "refundAmount": 10000,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund reason 6",
+      "status": "Failed",
+      "requestedAt": "2026-04-07T15:21:19.5345955+02:00",
+      "processedAt": null,
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-GH-007",
+      "transactionId": "TXN-GH-106",
+      "originalAmount": 11500,
+      "refundAmount": 11500,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund reason 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:19.5346+02:00",
+      "processedAt": "2026-04-11T15:21:19.5346001+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-GH-008",
+      "transactionId": "TXN-GH-107",
+      "originalAmount": 13000,
+      "refundAmount": 13000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund reason 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:19.5346017+02:00",
+      "processedAt": "2026-04-11T11:21:19.5346018+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-GH-009",
+      "transactionId": "TXN-GH-108",
+      "originalAmount": 14500,
+      "refundAmount": 14500,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund reason 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:19.5346034+02:00",
+      "processedAt": "2026-04-11T07:21:19.5346035+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

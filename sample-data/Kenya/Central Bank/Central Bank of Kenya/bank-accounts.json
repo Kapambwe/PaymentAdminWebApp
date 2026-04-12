@@ -1,0 +1,112 @@
+{
+  "bankAccounts": [
+    {
+      "bankName": "First Bank",
+      "accountNumber": "****6573",
+      "routingNumber": "110128",
+      "accountHolderName": "Business 1 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FIR",
+      "currency": "KES",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "GTBank",
+      "accountNumber": "****4595",
+      "routingNumber": "168494",
+      "accountHolderName": "Business 2 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-03-12T15:21:19.4076425+02:00",
+      "bankCode": "GTB",
+      "currency": "KES",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Zenith Bank",
+      "accountNumber": "****1372",
+      "routingNumber": "971060",
+      "accountHolderName": "Business 3 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2026-02-12T15:21:19.407646+02:00",
+      "bankCode": "ZEN",
+      "currency": "KES",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Access Bank",
+      "accountNumber": "****7908",
+      "routingNumber": "761187",
+      "accountHolderName": "Business 4 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "ACC",
+      "currency": "KES",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "UBA",
+      "accountNumber": "****9084",
+      "routingNumber": "230359",
+      "accountHolderName": "Business 5 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-12-12T15:21:19.407648+02:00",
+      "bankCode": "UBA",
+      "currency": "KES",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Sterling Bank",
+      "accountNumber": "****7357",
+      "routingNumber": "631257",
+      "accountHolderName": "Business 6 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-11-12T15:21:19.4076492+02:00",
+      "bankCode": "STE",
+      "currency": "KES",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Fidelity Bank",
+      "accountNumber": "****4748",
+      "routingNumber": "714735",
+      "accountHolderName": "Business 7 Ltd",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "FID",
+      "currency": "KES",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "Stanbic IBTC",
+      "accountNumber": "****2040",
+      "routingNumber": "806827",
+      "accountHolderName": "Business 8 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-09-12T15:21:19.4076508+02:00",
+      "bankCode": "STA",
+      "currency": "KES",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Ecobank",
+      "accountNumber": "****5611",
+      "routingNumber": "828396",
+      "accountHolderName": "Business 9 Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2025-08-12T15:21:19.4076515+02:00",
+      "bankCode": "ECO",
+      "currency": "KES",
+      "accountStatus": "Active"
+    }
+  ]
+}

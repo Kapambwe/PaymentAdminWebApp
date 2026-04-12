@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-MW-Opp-001",
+      "transactionId": "TXN-MW-Opp-050",
+      "originalAmount": 200,
+      "refundAmount": 200,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:20.9946575+02:00",
+      "processedAt": "2026-04-12T15:21:20.9946584+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-MW-Opp-002",
+      "transactionId": "TXN-MW-Opp-051",
+      "originalAmount": 300,
+      "refundAmount": 300,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:20.9946622+02:00",
+      "processedAt": "2026-04-12T11:21:20.9946624+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-MW-Opp-003",
+      "transactionId": "TXN-MW-Opp-052",
+      "originalAmount": 400,
+      "refundAmount": 400,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:20.9946644+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-MW-Opp-004",
+      "transactionId": "TXN-MW-Opp-053",
+      "originalAmount": 500,
+      "refundAmount": 500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:20.9946661+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-MW-Opp-005",
+      "transactionId": "TXN-MW-Opp-054",
+      "originalAmount": 600,
+      "refundAmount": 600,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:20.9946678+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-MW-Opp-006",
+      "transactionId": "TXN-MW-Opp-055",
+      "originalAmount": 700,
+      "refundAmount": 700,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:20.9946744+02:00",
+      "processedAt": "2026-04-11T19:21:20.9946746+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-MW-Opp-007",
+      "transactionId": "TXN-MW-Opp-056",
+      "originalAmount": 800,
+      "refundAmount": 800,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:20.9946762+02:00",
+      "processedAt": "2026-04-11T15:21:20.9946764+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-MW-Opp-008",
+      "transactionId": "TXN-MW-Opp-057",
+      "originalAmount": 900,
+      "refundAmount": 900,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:20.9946781+02:00",
+      "processedAt": "2026-04-11T11:21:20.9946783+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-MW-Opp-009",
+      "transactionId": "TXN-MW-Opp-058",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:20.99468+02:00",
+      "processedAt": "2026-04-11T07:21:20.9946802+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

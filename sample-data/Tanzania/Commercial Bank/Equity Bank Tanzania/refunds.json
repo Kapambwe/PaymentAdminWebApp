@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-TZ-Equ-001",
+      "transactionId": "TXN-TZ-Equ-050",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:20.0996661+02:00",
+      "processedAt": "2026-04-12T15:21:20.0996674+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-TZ-Equ-002",
+      "transactionId": "TXN-TZ-Equ-051",
+      "originalAmount": 1500,
+      "refundAmount": 1500,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:20.0996726+02:00",
+      "processedAt": "2026-04-12T11:21:20.0996728+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-TZ-Equ-003",
+      "transactionId": "TXN-TZ-Equ-052",
+      "originalAmount": 2000,
+      "refundAmount": 2000,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:20.0996756+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-TZ-Equ-004",
+      "transactionId": "TXN-TZ-Equ-053",
+      "originalAmount": 2500,
+      "refundAmount": 2500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:20.0996782+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-TZ-Equ-005",
+      "transactionId": "TXN-TZ-Equ-054",
+      "originalAmount": 3000,
+      "refundAmount": 3000,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:20.0996806+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-TZ-Equ-006",
+      "transactionId": "TXN-TZ-Equ-055",
+      "originalAmount": 3500,
+      "refundAmount": 3500,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:20.0996873+02:00",
+      "processedAt": "2026-04-11T19:21:20.0996875+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-TZ-Equ-007",
+      "transactionId": "TXN-TZ-Equ-056",
+      "originalAmount": 4000,
+      "refundAmount": 4000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:20.0996904+02:00",
+      "processedAt": "2026-04-11T15:21:20.0996905+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-TZ-Equ-008",
+      "transactionId": "TXN-TZ-Equ-057",
+      "originalAmount": 4500,
+      "refundAmount": 4500,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:20.0996931+02:00",
+      "processedAt": "2026-04-11T11:21:20.0996932+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-TZ-Equ-009",
+      "transactionId": "TXN-TZ-Equ-058",
+      "originalAmount": 5000,
+      "refundAmount": 5000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:20.0996957+02:00",
+      "processedAt": "2026-04-11T07:21:20.0996958+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

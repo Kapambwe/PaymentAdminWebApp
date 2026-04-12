@@ -1,0 +1,112 @@
+{
+  "bankAccounts": [
+    {
+      "bankName": "First Bank of Nigeria",
+      "accountNumber": "****1234",
+      "routingNumber": "011001015",
+      "accountHolderName": "National Retail Corporation",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2024-01-20T00:00:00Z",
+      "bankCode": "FBN",
+      "currency": "NGN",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Guaranty Trust Bank",
+      "accountNumber": "****5678",
+      "routingNumber": "058152042",
+      "accountHolderName": "Tech Solutions Limited",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2024-02-25T00:00:00Z",
+      "bankCode": "GTB",
+      "currency": "NGN",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Zenith Bank",
+      "accountNumber": "****9012",
+      "routingNumber": "057150013",
+      "accountHolderName": "Healthcare Services Inc",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2024-03-15T00:00:00Z",
+      "bankCode": "ZEN",
+      "currency": "NGN",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Access Bank",
+      "accountNumber": "****3456",
+      "routingNumber": "044150149",
+      "accountHolderName": "Education Masters Academy",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2024-04-10T00:00:00Z",
+      "bankCode": "ACC",
+      "currency": "NGN",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "United Bank for Africa",
+      "accountNumber": "****7890",
+      "routingNumber": "033163513",
+      "accountHolderName": "Agricultural Products Co",
+      "accountType": "Business",
+      "isVerified": false,
+      "verifiedAt": null,
+      "bankCode": "UBA",
+      "currency": "NGN",
+      "accountStatus": "PendingVerification"
+    },
+    {
+      "bankName": "Sterling Bank",
+      "accountNumber": "****2345",
+      "routingNumber": "232150029",
+      "accountHolderName": "Hospitality Group Limited",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2024-05-25T00:00:00Z",
+      "bankCode": "STB",
+      "currency": "NGN",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Fidelity Bank",
+      "accountNumber": "****6789",
+      "routingNumber": "070150003",
+      "accountHolderName": "Manufacturing Industries Ltd",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2024-06-20T00:00:00Z",
+      "bankCode": "FID",
+      "currency": "NGN",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Stanbic IBTC Bank",
+      "accountNumber": "****0123",
+      "routingNumber": "221166703",
+      "accountHolderName": "Logistics and Transport Services",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2024-07-15T00:00:00Z",
+      "bankCode": "IBTC",
+      "currency": "NGN",
+      "accountStatus": "Active"
+    },
+    {
+      "bankName": "Ecobank Nigeria",
+      "accountNumber": "****4567",
+      "routingNumber": "050150010",
+      "accountHolderName": "Entertainment and Media Company",
+      "accountType": "Business",
+      "isVerified": true,
+      "verifiedAt": "2024-08-05T00:00:00Z",
+      "bankCode": "ECO",
+      "currency": "NGN",
+      "accountStatus": "Active"
+    }
+  ]
+}

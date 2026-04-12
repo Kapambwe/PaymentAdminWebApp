@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-SL-Sie-001",
+      "transactionId": "TXN-SL-Sie-050",
+      "originalAmount": 200,
+      "refundAmount": 200,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:20.8008804+02:00",
+      "processedAt": "2026-04-12T15:21:20.8008815+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-SL-Sie-002",
+      "transactionId": "TXN-SL-Sie-051",
+      "originalAmount": 300,
+      "refundAmount": 300,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:20.8008868+02:00",
+      "processedAt": "2026-04-12T11:21:20.8008869+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-SL-Sie-003",
+      "transactionId": "TXN-SL-Sie-052",
+      "originalAmount": 400,
+      "refundAmount": 400,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:20.8008897+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-SL-Sie-004",
+      "transactionId": "TXN-SL-Sie-053",
+      "originalAmount": 500,
+      "refundAmount": 500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:20.8008925+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-SL-Sie-005",
+      "transactionId": "TXN-SL-Sie-054",
+      "originalAmount": 600,
+      "refundAmount": 600,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:20.8008951+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-SL-Sie-006",
+      "transactionId": "TXN-SL-Sie-055",
+      "originalAmount": 700,
+      "refundAmount": 700,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:20.8008975+02:00",
+      "processedAt": "2026-04-11T19:21:20.8008977+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-SL-Sie-007",
+      "transactionId": "TXN-SL-Sie-056",
+      "originalAmount": 800,
+      "refundAmount": 800,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:20.8009+02:00",
+      "processedAt": "2026-04-11T15:21:20.8009002+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-SL-Sie-008",
+      "transactionId": "TXN-SL-Sie-057",
+      "originalAmount": 900,
+      "refundAmount": 900,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:20.8009089+02:00",
+      "processedAt": "2026-04-11T11:21:20.8009091+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-SL-Sie-009",
+      "transactionId": "TXN-SL-Sie-058",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:20.8009114+02:00",
+      "processedAt": "2026-04-11T07:21:20.8009115+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

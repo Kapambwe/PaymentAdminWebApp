@@ -1,0 +1,193 @@
+{
+  "reconciliationRecords": [
+    {
+      "transactionId": "TXN-001",
+      "transactionDate": "2024-11-27T10:30:00Z",
+      "customerName": "John Doe",
+      "amount": 125.50,
+      "fees": 3.77,
+      "netAmount": 121.73,
+      "settlementId": "SET-001",
+      "settlementDate": "2024-11-28T02:00:00Z",
+      "status": "Matched"
+    },
+    {
+      "transactionId": "TXN-002",
+      "transactionDate": "2024-11-27T11:45:00Z",
+      "customerName": "Jane Smith",
+      "amount": 89.00,
+      "fees": 2.67,
+      "netAmount": 86.33,
+      "settlementId": null,
+      "settlementDate": null,
+      "status": "Unmatched"
+    },
+    {
+      "transactionId": "TXN-003",
+      "transactionDate": "2024-11-27T14:20:00Z",
+      "customerName": "Michael Johnson",
+      "amount": 256.75,
+      "fees": 7.70,
+      "netAmount": 249.05,
+      "settlementId": "SET-001",
+      "settlementDate": "2024-11-28T02:00:00Z",
+      "status": "Matched"
+    },
+    {
+      "transactionId": "TXN-004",
+      "transactionDate": "2024-11-27T15:10:00Z",
+      "customerName": "Sarah Williams",
+      "amount": 450.00,
+      "fees": 13.50,
+      "netAmount": 436.50,
+      "settlementId": "SET-001",
+      "settlementDate": "2024-11-28T02:00:00Z",
+      "status": "Matched"
+    },
+    {
+      "transactionId": "TXN-005",
+      "transactionDate": "2024-11-27T16:30:00Z",
+      "customerName": "David Brown",
+      "amount": 1500.00,
+      "fees": 45.00,
+      "netAmount": 1455.00,
+      "settlementId": null,
+      "settlementDate": null,
+      "status": "Partial"
+    },
+    {
+      "transactionId": "TXN-006",
+      "transactionDate": "2024-11-26T09:00:00Z",
+      "customerName": "Emily Davis",
+      "amount": 320.00,
+      "fees": 9.60,
+      "netAmount": 310.40,
+      "settlementId": "SET-002",
+      "settlementDate": "2024-11-27T02:00:00Z",
+      "status": "Matched"
+    },
+    {
+      "transactionId": "TXN-007",
+      "transactionDate": "2024-11-26T10:15:00Z",
+      "customerName": "Robert Wilson",
+      "amount": 850.00,
+      "fees": 25.50,
+      "netAmount": 824.50,
+      "settlementId": "SET-002",
+      "settlementDate": "2024-11-27T02:00:00Z",
+      "status": "Matched"
+    },
+    {
+      "transactionId": "TXN-008",
+      "transactionDate": "2024-11-26T12:30:00Z",
+      "customerName": "Lisa Martinez",
+      "amount": 2100.00,
+      "fees": 63.00,
+      "netAmount": 2037.00,
+      "settlementId": null,
+      "settlementDate": null,
+      "status": "Disputed"
+    },
+    {
+      "transactionId": "TXN-009",
+      "transactionDate": "2024-11-26T14:45:00Z",
+      "customerName": "James Anderson",
+      "amount": 180.00,
+      "fees": 5.40,
+      "netAmount": 174.60,
+      "settlementId": "SET-002",
+      "settlementDate": "2024-11-27T02:00:00Z",
+      "status": "Reversed"
+    }
+  ],
+  "reconciliationData": {
+    "totalRecords": 1250,
+    "matchedRecords": 1185,
+    "unmatchedRecords": 35,
+    "amountMismatchRecords": 20,
+    "statusMismatchRecords": 10,
+    "discrepancies": [
+      {
+        "transactionId": "CYCLE-TXN-0042",
+        "status": "Amount Mismatch",
+        "settlementAmount": 1500.00,
+        "internalAmount": 1475.00,
+        "settlementStatus": "Completed",
+        "internalStatus": "Completed",
+        "notes": "Settlement amount differs from internal ledger by 25.00"
+      },
+      {
+        "transactionId": "CYCLE-TXN-0187",
+        "status": "Status Mismatch",
+        "settlementAmount": 890.00,
+        "internalAmount": 890.00,
+        "settlementStatus": "Failed",
+        "internalStatus": "Completed",
+        "notes": "Settlement status shows Failed but internal shows Completed"
+      },
+      {
+        "transactionId": "CYCLE-TXN-0234",
+        "status": "Amount Mismatch",
+        "settlementAmount": 2500.00,
+        "internalAmount": 2450.00,
+        "settlementStatus": "Completed",
+        "internalStatus": "Completed",
+        "notes": "Fee calculation discrepancy"
+      },
+      {
+        "transactionId": "CYCLE-TXN-0567",
+        "status": "Unmatched",
+        "settlementAmount": null,
+        "internalAmount": 750.00,
+        "settlementStatus": "Pending",
+        "internalStatus": "Completed",
+        "notes": "Transaction not found in settlement file"
+      },
+      {
+        "transactionId": "CYCLE-TXN-0789",
+        "status": "Status Mismatch",
+        "settlementAmount": 3200.00,
+        "internalAmount": 3200.00,
+        "settlementStatus": "Completed",
+        "internalStatus": "Reversed",
+        "notes": "Transaction was reversed after settlement"
+      },
+      {
+        "transactionId": "CYCLE-TXN-0912",
+        "status": "Amount Mismatch",
+        "settlementAmount": 980.00,
+        "internalAmount": 1000.00,
+        "settlementStatus": "Completed",
+        "internalStatus": "Completed",
+        "notes": "Discount applied after settlement"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1234",
+        "status": "Unmatched",
+        "settlementAmount": null,
+        "internalAmount": 1850.00,
+        "settlementStatus": "Pending",
+        "internalStatus": "Completed",
+        "notes": "Settlement batch not yet processed"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1567",
+        "status": "Status Mismatch",
+        "settlementAmount": 450.00,
+        "internalAmount": 450.00,
+        "settlementStatus": "Completed",
+        "internalStatus": "Pending",
+        "notes": "Settlement completed before internal processing"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1890",
+        "status": "Amount Mismatch",
+        "settlementAmount": 7200.00,
+        "internalAmount": 7150.00,
+        "settlementStatus": "Completed",
+        "internalStatus": "Completed",
+        "notes": "Currency conversion rate difference"
+      }
+    ]
+  }
+}

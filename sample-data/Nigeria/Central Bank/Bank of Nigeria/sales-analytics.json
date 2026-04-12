@@ -1,0 +1,48 @@
+{
+  "salesDashboard": {
+    "todaysSales": 12345.67,
+    "yesterdaysSales": 10234.56,
+    "salesChangePercent": 20.6,
+    "transactionCount": 89,
+    "yesterdayTransactionCount": 76,
+    "transactionChangePercent": 17.1,
+    "averageTicketSize": 138.71,
+    "successRate": 98.5,
+    "refundRate": 1.2
+  },
+  "salesTrend": [
+    { "date": "2024-11-22", "amount": 8500.00, "count": 62 },
+    { "date": "2024-11-23", "amount": 9200.00, "count": 68 },
+    { "date": "2024-11-24", "amount": 7800.00, "count": 55 },
+    { "date": "2024-11-25", "amount": 10500.00, "count": 75 },
+    { "date": "2024-11-26", "amount": 11200.00, "count": 82 },
+    { "date": "2024-11-27", "amount": 9800.00, "count": 71 },
+    { "date": "2024-11-28", "amount": 12345.67, "count": 89 }
+  ],
+  "paymentMethodBreakdown": [
+    { "method": "QR Code", "amount": 25000.00, "count": 150, "percentage": 62.5 },
+    { "method": "Payment Link", "amount": 12000.00, "count": 75, "percentage": 30.0 },
+    { "method": "Invoice", "amount": 3000.00, "count": 15, "percentage": 7.5 }
+  ],
+  "topProducts": [
+    { "productName": "Premium Coffee", "salesCount": 45, "totalAmount": 2250.00 },
+    { "productName": "Sandwich Combo", "salesCount": 38, "totalAmount": 1900.00 },
+    { "productName": "Pastry", "salesCount": 52, "totalAmount": 1560.00 },
+    { "productName": "Fresh Juice", "salesCount": 30, "totalAmount": 1200.00 },
+    { "productName": "Salad Bowl", "salesCount": 25, "totalAmount": 1125.00 }
+  ],
+  "peakHours": [
+    { "hour": 8, "amount": 1200.00, "transactionCount": 12 },
+    { "hour": 9, "amount": 1800.00, "transactionCount": 18 },
+    { "hour": 10, "amount": 1500.00, "transactionCount": 15 },
+    { "hour": 11, "amount": 2100.00, "transactionCount": 21 },
+    { "hour": 12, "amount": 3200.00, "transactionCount": 32 },
+    { "hour": 13, "amount": 2800.00, "transactionCount": 28 },
+    { "hour": 14, "amount": 2500.00, "transactionCount": 25 },
+    { "hour": 15, "amount": 1900.00, "transactionCount": 19 },
+    { "hour": 16, "amount": 1600.00, "transactionCount": 16 },
+    { "hour": 17, "amount": 2200.00, "transactionCount": 22 },
+    { "hour": 18, "amount": 1400.00, "transactionCount": 14 },
+    { "hour": 19, "amount": 800.00, "transactionCount": 8 }
+  ]
+}

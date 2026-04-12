@@ -1,0 +1,193 @@
+{
+  "reconciliationRecords": [
+    {
+      "transactionId": "TXN-TZ-001",
+      "transactionDate": "2026-04-12T15:21:20.0315004+02:00",
+      "customerName": "Customer 1",
+      "amount": 500,
+      "fees": 15.0,
+      "netAmount": 485.0,
+      "settlementId": "SET-TZ-001",
+      "settlementDate": "2026-04-12T15:21:20.0315061+02:00",
+      "status": "Matched"
+    },
+    {
+      "transactionId": "TXN-TZ-002",
+      "transactionDate": "2026-04-11T15:21:20.0315077+02:00",
+      "customerName": "Customer 2",
+      "amount": 750,
+      "fees": 22.5,
+      "netAmount": 727.5,
+      "settlementId": null,
+      "settlementDate": null,
+      "status": "Unmatched"
+    },
+    {
+      "transactionId": "TXN-TZ-003",
+      "transactionDate": "2026-04-10T15:21:20.0315093+02:00",
+      "customerName": "Customer 3",
+      "amount": 1000,
+      "fees": 30.0,
+      "netAmount": 970.0,
+      "settlementId": "SET-TZ-003",
+      "settlementDate": "2026-04-12T15:21:20.0315107+02:00",
+      "status": "Partial"
+    },
+    {
+      "transactionId": "TXN-TZ-004",
+      "transactionDate": "2026-04-09T15:21:20.0315113+02:00",
+      "customerName": "Customer 4",
+      "amount": 1250,
+      "fees": 37.5,
+      "netAmount": 1212.5,
+      "settlementId": null,
+      "settlementDate": null,
+      "status": "Disputed"
+    },
+    {
+      "transactionId": "TXN-TZ-005",
+      "transactionDate": "2026-04-08T15:21:20.0315128+02:00",
+      "customerName": "Customer 5",
+      "amount": 1500,
+      "fees": 45.0,
+      "netAmount": 1455.0,
+      "settlementId": "SET-TZ-005",
+      "settlementDate": "2026-04-12T15:21:20.031514+02:00",
+      "status": "Matched"
+    },
+    {
+      "transactionId": "TXN-TZ-006",
+      "transactionDate": "2026-04-07T15:21:20.0315146+02:00",
+      "customerName": "Customer 6",
+      "amount": 1750,
+      "fees": 52.5,
+      "netAmount": 1697.5,
+      "settlementId": null,
+      "settlementDate": null,
+      "status": "Matched"
+    },
+    {
+      "transactionId": "TXN-TZ-007",
+      "transactionDate": "2026-04-06T15:21:20.0315191+02:00",
+      "customerName": "Customer 7",
+      "amount": 2000,
+      "fees": 60.0,
+      "netAmount": 1940.0,
+      "settlementId": "SET-TZ-007",
+      "settlementDate": "2026-04-12T15:21:20.0315204+02:00",
+      "status": "Unmatched"
+    },
+    {
+      "transactionId": "TXN-TZ-008",
+      "transactionDate": "2026-04-05T15:21:20.031521+02:00",
+      "customerName": "Customer 8",
+      "amount": 2250,
+      "fees": 67.5,
+      "netAmount": 2182.5,
+      "settlementId": null,
+      "settlementDate": null,
+      "status": "Partial"
+    },
+    {
+      "transactionId": "TXN-TZ-009",
+      "transactionDate": "2026-04-04T15:21:20.0315224+02:00",
+      "customerName": "Customer 9",
+      "amount": 2500,
+      "fees": 75.0,
+      "netAmount": 2425.0,
+      "settlementId": "SET-TZ-009",
+      "settlementDate": "2026-04-12T15:21:20.0315236+02:00",
+      "status": "Matched"
+    }
+  ],
+  "reconciliationData": {
+    "totalRecords": 6250,
+    "matchedRecords": 5925,
+    "unmatchedRecords": 175,
+    "amountMismatchRecords": 100,
+    "statusMismatchRecords": 50,
+    "discrepancies": [
+      {
+        "transactionId": "CYCLE-TXN-1000",
+        "status": "Amount Mismatch",
+        "settlementAmount": 5000,
+        "internalAmount": 4750,
+        "settlementStatus": "Completed",
+        "internalStatus": "Completed",
+        "notes": "Discrepancy note 1"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1001",
+        "status": "Status Mismatch",
+        "settlementAmount": 5500,
+        "internalAmount": 5250,
+        "settlementStatus": "Completed",
+        "internalStatus": "Pending",
+        "notes": "Discrepancy note 2"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1002",
+        "status": "Amount Mismatch",
+        "settlementAmount": 6000,
+        "internalAmount": 5750,
+        "settlementStatus": "Completed",
+        "internalStatus": "Completed",
+        "notes": "Discrepancy note 3"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1003",
+        "status": "Status Mismatch",
+        "settlementAmount": 6500,
+        "internalAmount": 6250,
+        "settlementStatus": "Completed",
+        "internalStatus": "Pending",
+        "notes": "Discrepancy note 4"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1004",
+        "status": "Amount Mismatch",
+        "settlementAmount": 7000,
+        "internalAmount": 6750,
+        "settlementStatus": "Completed",
+        "internalStatus": "Completed",
+        "notes": "Discrepancy note 5"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1005",
+        "status": "Status Mismatch",
+        "settlementAmount": 7500,
+        "internalAmount": 7250,
+        "settlementStatus": "Completed",
+        "internalStatus": "Pending",
+        "notes": "Discrepancy note 6"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1006",
+        "status": "Amount Mismatch",
+        "settlementAmount": 8000,
+        "internalAmount": 7750,
+        "settlementStatus": "Completed",
+        "internalStatus": "Completed",
+        "notes": "Discrepancy note 7"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1007",
+        "status": "Status Mismatch",
+        "settlementAmount": 8500,
+        "internalAmount": 8250,
+        "settlementStatus": "Completed",
+        "internalStatus": "Pending",
+        "notes": "Discrepancy note 8"
+      },
+      {
+        "transactionId": "CYCLE-TXN-1008",
+        "status": "Amount Mismatch",
+        "settlementAmount": 9000,
+        "internalAmount": 8750,
+        "settlementStatus": "Completed",
+        "internalStatus": "Completed",
+        "notes": "Discrepancy note 9"
+      }
+    ]
+  }
+}

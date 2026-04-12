@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-MW-Ned-001",
+      "transactionId": "TXN-MW-Ned-050",
+      "originalAmount": 200,
+      "refundAmount": 200,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:20.9247682+02:00",
+      "processedAt": "2026-04-12T15:21:20.9247692+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-MW-Ned-002",
+      "transactionId": "TXN-MW-Ned-051",
+      "originalAmount": 300,
+      "refundAmount": 300,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:20.9247739+02:00",
+      "processedAt": "2026-04-12T11:21:20.9247741+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-MW-Ned-003",
+      "transactionId": "TXN-MW-Ned-052",
+      "originalAmount": 400,
+      "refundAmount": 400,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:20.9247761+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-MW-Ned-004",
+      "transactionId": "TXN-MW-Ned-053",
+      "originalAmount": 500,
+      "refundAmount": 500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:20.9247838+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-MW-Ned-005",
+      "transactionId": "TXN-MW-Ned-054",
+      "originalAmount": 600,
+      "refundAmount": 600,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:20.9247857+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-MW-Ned-006",
+      "transactionId": "TXN-MW-Ned-055",
+      "originalAmount": 700,
+      "refundAmount": 700,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:20.9247874+02:00",
+      "processedAt": "2026-04-11T19:21:20.9247875+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-MW-Ned-007",
+      "transactionId": "TXN-MW-Ned-056",
+      "originalAmount": 800,
+      "refundAmount": 800,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:20.9247893+02:00",
+      "processedAt": "2026-04-11T15:21:20.9247895+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-MW-Ned-008",
+      "transactionId": "TXN-MW-Ned-057",
+      "originalAmount": 900,
+      "refundAmount": 900,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:20.924791+02:00",
+      "processedAt": "2026-04-11T11:21:20.9247911+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-MW-Ned-009",
+      "transactionId": "TXN-MW-Ned-058",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:20.9247926+02:00",
+      "processedAt": "2026-04-11T07:21:20.9247927+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}

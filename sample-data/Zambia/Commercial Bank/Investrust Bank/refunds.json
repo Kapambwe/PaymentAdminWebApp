@@ -1,0 +1,121 @@
+{
+  "refunds": [
+    {
+      "refundId": "REF-ZM-Inv-001",
+      "transactionId": "TXN-ZM-Inv-050",
+      "originalAmount": 1000,
+      "refundAmount": 1000,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 1",
+      "status": "Completed",
+      "requestedAt": "2026-04-12T15:21:20.0085796+02:00",
+      "processedAt": "2026-04-12T15:21:20.008581+02:00",
+      "customerName": "Customer 1"
+    },
+    {
+      "refundId": "REF-ZM-Inv-002",
+      "transactionId": "TXN-ZM-Inv-051",
+      "originalAmount": 1500,
+      "refundAmount": 1500,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 2",
+      "status": "Completed",
+      "requestedAt": "2026-04-11T15:21:20.0085901+02:00",
+      "processedAt": "2026-04-12T11:21:20.0085903+02:00",
+      "customerName": "Customer 2"
+    },
+    {
+      "refundId": "REF-ZM-Inv-003",
+      "transactionId": "TXN-ZM-Inv-052",
+      "originalAmount": 2000,
+      "refundAmount": 2000,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 3",
+      "status": "Processing",
+      "requestedAt": "2026-04-10T15:21:20.0085936+02:00",
+      "processedAt": null,
+      "customerName": "Customer 3"
+    },
+    {
+      "refundId": "REF-ZM-Inv-004",
+      "transactionId": "TXN-ZM-Inv-053",
+      "originalAmount": 2500,
+      "refundAmount": 2500,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 4",
+      "status": "Pending",
+      "requestedAt": "2026-04-09T15:21:20.0085979+02:00",
+      "processedAt": null,
+      "customerName": "Customer 4"
+    },
+    {
+      "refundId": "REF-ZM-Inv-005",
+      "transactionId": "TXN-ZM-Inv-054",
+      "originalAmount": 3000,
+      "refundAmount": 3000,
+      "type": "Full",
+      "reason": "Other",
+      "reasonDetails": "Refund for transaction 5",
+      "status": "Failed",
+      "requestedAt": "2026-04-08T15:21:20.0086009+02:00",
+      "processedAt": null,
+      "customerName": "Customer 5"
+    },
+    {
+      "refundId": "REF-ZM-Inv-006",
+      "transactionId": "TXN-ZM-Inv-055",
+      "originalAmount": 3500,
+      "refundAmount": 3500,
+      "type": "Full",
+      "reason": "CustomerRequest",
+      "reasonDetails": "Refund for transaction 6",
+      "status": "Completed",
+      "requestedAt": "2026-04-07T15:21:20.0086038+02:00",
+      "processedAt": "2026-04-11T19:21:20.008604+02:00",
+      "customerName": "Customer 6"
+    },
+    {
+      "refundId": "REF-ZM-Inv-007",
+      "transactionId": "TXN-ZM-Inv-056",
+      "originalAmount": 4000,
+      "refundAmount": 4000,
+      "type": "Full",
+      "reason": "DuplicatePayment",
+      "reasonDetails": "Refund for transaction 7",
+      "status": "Completed",
+      "requestedAt": "2026-04-06T15:21:20.0086068+02:00",
+      "processedAt": "2026-04-11T15:21:20.008607+02:00",
+      "customerName": "Customer 7"
+    },
+    {
+      "refundId": "REF-ZM-Inv-008",
+      "transactionId": "TXN-ZM-Inv-057",
+      "originalAmount": 4500,
+      "refundAmount": 4500,
+      "type": "Full",
+      "reason": "ProductNotDelivered",
+      "reasonDetails": "Refund for transaction 8",
+      "status": "Completed",
+      "requestedAt": "2026-04-05T15:21:20.0086096+02:00",
+      "processedAt": "2026-04-11T11:21:20.0086097+02:00",
+      "customerName": "Customer 8"
+    },
+    {
+      "refundId": "REF-ZM-Inv-009",
+      "transactionId": "TXN-ZM-Inv-058",
+      "originalAmount": 5000,
+      "refundAmount": 5000,
+      "type": "Full",
+      "reason": "WrongAmount",
+      "reasonDetails": "Refund for transaction 9",
+      "status": "Completed",
+      "requestedAt": "2026-04-04T15:21:20.0086125+02:00",
+      "processedAt": "2026-04-11T07:21:20.0086126+02:00",
+      "customerName": "Customer 9"
+    }
+  ]
+}
