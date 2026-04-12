@@ -1,10 +1,10 @@
 {
   "mainAssemblyName": "PaymentAdminWebApp",
   "resources": {
-    "hash": "sha256-BGS5Ja5Rdn9I3YG5u5jeycmZL2ex2qQNkfDAbAf22kM=",
+    "hash": "sha256-Dy6rxVQ2YYW080PxKwhvmNME8Q9VdzNiYbXmngVZwic=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.z6ce8ilche.wasm": "Microsoft.AspNetCore.Authorization.wasm",
-      "Microsoft.AspNetCore.Components.dy3vje52sf.wasm": "Microsoft.AspNetCore.Components.wasm",
+      "Microsoft.AspNetCore.Components.c4f6qy5r30.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Authorization.x89957y10p.wasm": "Microsoft.AspNetCore.Components.Authorization.wasm",
       "Microsoft.AspNetCore.Components.Forms.o6m86j8o6d.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.Web.wk29u1b01h.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -70,7 +70,7 @@
       "System.Xml.XDocument.rh8m9vtem3.wasm": "System.Xml.XDocument.wasm",
       "System.dqfxtvioy0.wasm": "System.wasm",
       "System.Private.CoreLib.l4us9yt5br.wasm": "System.Private.CoreLib.wasm",
-      "PaymentAdminWebApp.9820kyir9h.wasm": "PaymentAdminWebApp.wasm",
+      "PaymentAdminWebApp.siy4l3k6no.wasm": "PaymentAdminWebApp.wasm",
       "dotnet.native.qbca6pwzhg.js": "dotnet.native.js",
       "dotnet.native.z1pfod0akg.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
@@ -99,7 +99,7 @@
     },
     "assembly": {
       "Microsoft.AspNetCore.Authorization.z6ce8ilche.wasm": "sha256-OxVXOsezyOAQEEWFHJ3t9lovlDTebYPUSFY9Z6qRWW0=",
-      "Microsoft.AspNetCore.Components.dy3vje52sf.wasm": "sha256-xeBB4XWwCTBZ7WicbW7F+r19w5/VarCO5BjsRvEDgJg=",
+      "Microsoft.AspNetCore.Components.c4f6qy5r30.wasm": "sha256-9Dto/G4HK2WA3AFJ6xm3QLn+/OFauf/1tcy4pFGG6rw=",
       "Microsoft.AspNetCore.Components.Authorization.x89957y10p.wasm": "sha256-72dsLTi0Env1/zuCthydcH+NzGmnno7Y5RTrqLI4KeU=",
       "Microsoft.AspNetCore.Components.Forms.o6m86j8o6d.wasm": "sha256-UJQirDkFujtd+0f4Yw8HpNul0ofMfDtCG8Yjcg7+XR8=",
       "Microsoft.AspNetCore.Components.Web.wk29u1b01h.wasm": "sha256-sFgTMDXbyXzNErc/IYcdVJcKUKdUIwLPUzPcayJPtW8=",
@@ -163,7 +163,7 @@
       "System.Xml.Linq.53liyo777g.wasm": "sha256-v9JHsJbBkO3lHVBoE7qJxiS0WfQzkxg+A8GpOWF+ls8=",
       "System.Xml.XDocument.rh8m9vtem3.wasm": "sha256-f6neACBQu4MhCYFb7NW4pbUrxxApwkLbk1oTRYSj1fA=",
       "System.dqfxtvioy0.wasm": "sha256-5QZAjy4n7513fYxCXSXTsAkUmRsLiZ8m621Ot4k7FB0=",
-      "PaymentAdminWebApp.9820kyir9h.wasm": "sha256-t7h4ps3Wc+/n1Oicm9TNcodI+UwGak3Zblo3Hg8noQQ="
+      "PaymentAdminWebApp.siy4l3k6no.wasm": "sha256-xGg3KRVgRl9Sj/9f7H0klfcxposUD4Qf4Fg1DdzZO8E="
     }
   },
   "cacheBootResources": true,
