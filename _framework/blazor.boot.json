@@ -170,10 +170,10 @@
   "debugLevel": 0,
   "linkerEnabled": true,
   "appsettings": [
+    "../appsettings.Production.json",
     "../appsettings.Development.json",
     "../appsettings.GitHub.json",
-    "../appsettings.json",
-    "../appsettings.Production.json"
+    "../appsettings.json"
   ],
   "globalizationMode": "sharded",
   "extensions": {
